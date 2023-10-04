@@ -1,5 +1,5 @@
 body{
-  background-image:url(photo/background.png);
+  background-image:url(background.png);
   background-repeat:repeat;
   background-size:contain;
   background-attachment: fixed;
@@ -227,7 +227,7 @@ p{
   color: white;
 }
 #hero{
-  background-image: url("photo/fortnite-v-bucks.png");
+  background-image: url("fortnite-v-bucks.png");
   height: 90vh;
   background-repeat:no-repeat;
   background-size: contain 5;
