@@ -5,11 +5,11 @@ body{
   background-attachment: fixed;
 }
 *{
-  margin: 0;
+  margin:0;
   padding: 0;
   box-sizing: border-box;
   font-family: sf arabic;
-  color: black;
+  color: white;
 }
 .logo{
   width:50px;
@@ -27,6 +27,7 @@ body{
   transition:0.15s ;
   cursor: pointer;
   margin-left: 30px;
+  text-decoration: none;
 }
 .add:hover{
   opacity: 0.8;
@@ -247,34 +248,31 @@ p{
   cursor: pointer;
   
 }
-#feature{
-  width: 100%;
-  padding:  0 80px;
-  display: flex;
-  animation: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
+
 .section-p1{
   padding: 40px 80px;
 }
 .options-v-bucks{color: #000;
 }
-h5{
-  color: white;
-  margin-left: 145px;
-  font-size: 30px;
-  
-}
-h6{
-  color: white;
-  margin-left:185px;
-  margin-top: 20px;
-}
+
 .v-bucks-photo{
-  margin-top: 100px;
-  align-items: flex-end;
+  text-align: end;
 }
-.feature-box{
-  text-align: center;
+
+
+.sub-menu-shop{
+  display: none;
 }
+#navbar li a.active:hover .sub-menu-shop:hover{
+  display: block;
+  position: absolute;
+  background:rgb(6, 32, 149) ;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+#navbar i{
+  margin-left: 8px;
+  color: white;
+}
+
+
