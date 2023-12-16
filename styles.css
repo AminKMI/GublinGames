@@ -8,7 +8,7 @@ body{
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sf arabic;
+  font-family: 'Rubik', sans-serif;
   color: white;
 }
 .logo{
@@ -17,7 +17,7 @@ body{
 .add{
   background-color: rgb(5, 67, 191);
   border-radius: 10px;
-  font-family: sf arabic;
+  font-family: 'Rubik', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -51,7 +51,7 @@ body{
   margin-right: 0%;
   border: 2px;}
   .title{
-  font-family:iranyekan;
+  font-family: 'Rubik', sans-serif;
   padding: 40px;
   cursor: pointer;
   text-decoration: none;
@@ -64,7 +64,7 @@ body{
   text-decoration: underline;
 }
 .price{
-  font-family:sf arabic medium;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   color: white;
   margin-bottom: 20px;
@@ -75,14 +75,14 @@ body{
   margin: auto;
 }
 .welcome{
-  font-family: sf arabic;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   color: white;
   font-size: 30px;
   margin-top: 80px;
 }
 .our-description{
-  font-family: sf arabic;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   text-align: center;
   margin-top: 160px;
@@ -95,7 +95,7 @@ body{
   box-sizing: border-box;
 }
 .game-coin-category-fort{
-  font-family: sf arabic;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   font-size: 60px;
   color: white;
@@ -104,18 +104,18 @@ body{
 }
 .item-shop-title{
   text-align: center;
-  font-family:sf arabic;
+  font-family: 'Rubik', sans-serif;
   font-size:60px;
   color: white;
 }
 .bundles-title{
-  font-family: sf arabic;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   font-size: 60px;
   color: white;
 }
 .add-crew{
-  font-family: sf arabic;
+  font-family: 'Rubik', sans-serif;
   background-color: blue;
   color: white;
   padding-left: 20px;
